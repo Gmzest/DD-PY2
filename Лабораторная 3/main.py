@@ -84,3 +84,4 @@ class AudioBook(Book):
         if new_duration <= 0:
             raise ValueError("Продолжительность аудиокниги должна быть больше 0")
         self._duration = new_duration
+        
